@@ -66,7 +66,7 @@ public class Main {
                         System.out.println("Мы советуем Вам УСН: Доходы минус расходы");
                         System.out.println("Ваш налог составит: " + taxEMS + " рублей");
                         System.out.println("Налог на другой системе: " + taxE + " рублей");
-                        System.out.println("Экономиия:" + (taxEMS - taxE) + " рублей");
+                        System.out.println("Экономиия:" + (taxE - taxEMS) + " рублей");
                     }
                     break;
                 default:
